@@ -20,19 +20,19 @@ public class ProcmenuDessert {
 			KioskObj.cmd = KioskObj.sc.next();
 			switch(KioskObj.cmd) {
 			case "1":
-				Cw.wn(KioskObj.Products.get(0).name+" selected");
-				Order n = new Order(KioskObj.Products.get(0));
-				KioskObj.basket.add(n);			
+				Cw.wn(KioskObj.Products.get(2).name+" selected");
+				Order d = new Order(KioskObj.Products.get(2));
+				KioskObj.basket.add(d);			
 				break;
 			case "2":
-				Cw.wn(KioskObj.Products.get(1).name+" selected");
-				Order n1 = new Order(KioskObj.Products.get(1));
-				KioskObj.basket.add(n1);			
+				Cw.wn(KioskObj.Products.get(3).name+" selected");
+				Order d1 = new Order(KioskObj.Products.get(3));
+				KioskObj.basket.add(d1);			
 				break;
 			case "3":
-				Cw.wn(KioskObj.Products.get(2).name+" selected");
-				Order n2 = new Order(KioskObj.Products.get(2));
-				KioskObj.basket.add(n2);			
+				Cw.wn(KioskObj.Products.get(4).name+" selected");
+				Order d2 = new Order(KioskObj.Products.get(4));
+				KioskObj.basket.add(d2);			
 				break;
 			case "x":
 				Cw.wn("prev menu");

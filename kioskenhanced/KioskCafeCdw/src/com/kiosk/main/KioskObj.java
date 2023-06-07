@@ -16,7 +16,6 @@ public class KioskObj {
 public static void productload() {
 	Products.add(new Beverage("coffee",2000));
 	Products.add(new Beverage("latte",3000));
-	
 	Products.add(new Dessert("piece of cake",4000));
 	Products.add(new Dessert("whole cake",20000));
 	Products.add(new Dessert("maccaron",3000));

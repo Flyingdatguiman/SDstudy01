@@ -22,11 +22,13 @@ public class ProcmenuBeverage {
     		switch(KioskObj.cmd) {
     		case"1":
     			Cw.wn(KioskObj.Products.get(0).name+" selected");
-    			KioskObj.basket.add(new Order (KioskObj.Products.get(0)));
-    			break;
+				Order b = new Order(KioskObj.Products.get(0));
+				KioskObj.basket.add(b);	
+				break;
     		case"2":
     			Cw.wn(KioskObj.Products.get(1).name+" selected");
-    			KioskObj.basket.add(new Order (KioskObj.Products.get(1)));
+			Order b1 = new Order(KioskObj.Products.get(1));
+			KioskObj.basket.add(b1);	
     			break;
     		case"x":
     			Cw.wn("prev menu");
